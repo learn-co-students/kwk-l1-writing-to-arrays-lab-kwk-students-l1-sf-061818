@@ -4,7 +4,15 @@ rainbow_colors = [
   "light_cyan"
 ]
 
-def change_rainbow_colors
+def change_rainbow_colors = ["red", "light_red", "light_yellow"]
+end 
+
+def add_colors
+  rainbow_colors << ["green", "blue"]
+end
+puts add_colors
+  
+  
   # Write a solution that corrects the three colors in rainbow_colors, then returns the corrected array
 end
 
